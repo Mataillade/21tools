@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "back"
+version = "0.1.0"
+description = ""
+authors = ["matias <matias.taillade@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+blacksheep = "^2.0.3"
+sqlalchemy = "^2.0.23"
+python-injection = "^0.6.1"
+python-dotenv = "^1.0.0"
+pydantic = "^2.5.3"
+uvicorn = "^0.25.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+flake8 = "^6.1.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
